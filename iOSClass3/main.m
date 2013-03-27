@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SavingsAccount.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        SavingsAccount *s = [[SavingsAccount alloc] initWithBalance:100];
+        
+        [s printBalanceInYears:10];
         
     }
     return 0;

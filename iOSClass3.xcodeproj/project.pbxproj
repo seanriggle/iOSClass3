@@ -10,6 +10,8 @@
 		2FDA375D16F13B8E00EAE1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA375C16F13B8E00EAE1D6 /* Foundation.framework */; };
 		2FDA376016F13B8E00EAE1D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA375F16F13B8E00EAE1D6 /* main.m */; };
 		2FDA376416F13B8E00EAE1D6 /* iOSClass3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2FDA376316F13B8E00EAE1D6 /* iOSClass3.1 */; };
+		2FDA376C16F13BFE00EAE1D6 /* SavingsAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA376B16F13BFE00EAE1D6 /* SavingsAccount.m */; };
+		2FDA376F16F141A700EAE1D6 /* InterestCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA376E16F141A700EAE1D6 /* InterestCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,11 @@
 		2FDA375F16F13B8E00EAE1D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FDA376216F13B8E00EAE1D6 /* iOSClass3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSClass3-Prefix.pch"; sourceTree = "<group>"; };
 		2FDA376316F13B8E00EAE1D6 /* iOSClass3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = iOSClass3.1; sourceTree = "<group>"; };
+		2FDA376A16F13BFE00EAE1D6 /* SavingsAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavingsAccount.h; sourceTree = "<group>"; };
+		2FDA376B16F13BFE00EAE1D6 /* SavingsAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingsAccount.m; sourceTree = "<group>"; };
+		2FDA376D16F141A700EAE1D6 /* InterestCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterestCalculator.h; path = ../InterestCalculator.h; sourceTree = "<group>"; };
+		2FDA376E16F141A700EAE1D6 /* InterestCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterestCalculator.m; path = ../InterestCalculator.m; sourceTree = "<group>"; };
+		2FDA377016F1478000EAE1D6 /* InterestCalculatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterestCalculatorDelegate.h; path = ../InterestCalculatorDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +80,14 @@
 		2FDA375E16F13B8E00EAE1D6 /* iOSClass3 */ = {
 			isa = PBXGroup;
 			children = (
+				2FDA376D16F141A700EAE1D6 /* InterestCalculator.h */,
+				2FDA377016F1478000EAE1D6 /* InterestCalculatorDelegate.h */,
+				2FDA376E16F141A700EAE1D6 /* InterestCalculator.m */,
 				2FDA375F16F13B8E00EAE1D6 /* main.m */,
 				2FDA376316F13B8E00EAE1D6 /* iOSClass3.1 */,
 				2FDA376116F13B8E00EAE1D6 /* Supporting Files */,
+				2FDA376A16F13BFE00EAE1D6 /* SavingsAccount.h */,
+				2FDA376B16F13BFE00EAE1D6 /* SavingsAccount.m */,
 			);
 			path = iOSClass3;
 			sourceTree = "<group>";
@@ -140,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FDA376016F13B8E00EAE1D6 /* main.m in Sources */,
+				2FDA376C16F13BFE00EAE1D6 /* SavingsAccount.m in Sources */,
+				2FDA376F16F141A700EAE1D6 /* InterestCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
